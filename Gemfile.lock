@@ -1,0 +1,24 @@
+PATH
+  remote: .
+  specs:
+    method_fallback (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.11.3)
+    rake (10.5.0)
+    yard (0.9.16)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  method_fallback!
+  minitest (~> 5.0)
+  rake (~> 10.0)
+  yard
+
+BUNDLED WITH
+   1.16.4
