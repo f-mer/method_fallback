@@ -1,5 +1,7 @@
 # MethodFallback
 
+[![Build Status](https://travis-ci.org/f-mer/method_fallback.svg?branch=master)](https://travis-ci.org/f-mer/method_fallback)
+
 `MethodFallback` offers an easy way of delegating to another method if the
 original one returned nil.
 
