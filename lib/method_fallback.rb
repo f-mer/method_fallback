@@ -20,11 +20,13 @@ module MethodFallback
     # @example
     #   class Author
     #     def name
-    #       'John Doe'
+    #       'Jane Doe'
     #     end
     #   end
     #
     #   class Article
+    #     include MethodFallback
+    #
     #     def author
     #       Author.new
     #     end

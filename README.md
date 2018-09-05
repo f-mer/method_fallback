@@ -32,11 +32,13 @@ $ gem install method_fallback
 ```ruby
 class Author
   def name
-    'John Doe'
+    'Jane Doe'
   end
 end
 
 class Article
+  include MethodFallback
+
   def author
     Author.new
   end
@@ -48,7 +50,7 @@ class Article
   fallback author_name: :name, to: :author
 end
 
-article = Artile.new
+article = Article.new
 
 article.author_name_without_fallback # => nil
 article.author_name # => "Jane Doe"
