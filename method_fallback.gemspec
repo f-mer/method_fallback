@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Fabian Mersch']
   spec.email         = ['fabianmersch@gmail.com']
 
-  spec.summary       = %q{Fallback to other attributes if attribute is blank.}
-  spec.description   = %q{Fallback to other attributes if attribute is blank.}
+  spec.summary       = %q{Fallback to other method in case the original method returned nil.}
+  spec.description   = %q{Fallback to other method in case the original method returned nil.}
   spec.homepage      = 'https://github.com/f-mer/method_fallback'
   spec.license       = 'MIT'
 
