@@ -1,6 +1,8 @@
 # MethodFallback
 
 [![Build Status](https://travis-ci.org/f-mer/method_fallback.svg?branch=master)](https://travis-ci.org/f-mer/method_fallback)
+[![Maintainability](https://api.codeclimate.com/v1/badges/6600af762b40e0c56192/maintainability)](https://codeclimate.com/github/f-mer/method_fallback/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/6600af762b40e0c56192/test_coverage)](https://codeclimate.com/github/f-mer/method_fallback/test_coverage)
 
 `MethodFallback` offers an easy way of delegating to another method if the
 original one returned nil.
