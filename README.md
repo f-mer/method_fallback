@@ -13,11 +13,15 @@ gem 'method_fallback'
 
 And then execute:
 
-  $ bundle
+```sh
+$ bundle
+```
 
 Or install it yourself as:
 
-  $ gem install method_fallback
+```sh
+$ gem install method_fallback
+```
 
 ## Usage
 
